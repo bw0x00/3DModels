@@ -1,0 +1,1 @@
+linear_extrude(height=66) polygon(points=[[0,0],[0,23],[13,19],[13,4]]);
