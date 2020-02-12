@@ -24,6 +24,8 @@ difference(){
     cube([1.5,21,66]);
 }
 
-translate(cabel_positionXY+[0,0,-6.9]) tube (outer=4,thickness=0.5,length=6);
-translate(cabel_positionXY+[0,0,66.9]) tube (outer=4,thickness=0.5,length=6);
+translate(cabel_positionXY+[0,0,-6.9]) tube (outer=4.7,thickness=0.5,length=6);
+translate(cabel_positionXY+[0,0,-6.9-8.9]) tube (outer=4.7,thickness=(4.7-2.7)/2,length=15-6);
+translate(cabel_positionXY+[0,0,66.9]) tube (outer=4.7,thickness=0.5,length=6);
+translate(cabel_positionXY+[0,0,66.9+5.9]) tube (outer=4.7,thickness=(4.7-2.7)/2,length=15-6);
 
